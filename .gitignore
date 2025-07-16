@@ -51,4 +51,7 @@ coverage/
 
 # Optional: Ignore deployed URLs or saved outputs
 deployed.txt
-workspace-*
+# Ignore workspace directories 
+ci/workspace-*
+# Ignore specific files that are not part of the project
+ci/runner.log
